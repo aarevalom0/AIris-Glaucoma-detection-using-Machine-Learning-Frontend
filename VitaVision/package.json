@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite"
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@swup/body-class-plugin": "^3.3.0",
