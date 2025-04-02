@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import '../App.css'
 
 const Navbar = () => {
+  
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary" id ="navbar">
       <div className="container-fluid" id ="navbar">
