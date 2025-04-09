@@ -6,7 +6,8 @@ sudo apt install npm
 npm install
 npm install react-router-dom
 npm run dev -- --host
-
+git reset --hard 
+git pull
 tmux new -s vitavision
 
 tmux attach -t vitavision
