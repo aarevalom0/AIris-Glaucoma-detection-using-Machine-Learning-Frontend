@@ -36,7 +36,7 @@ function Home () {
         <hr id="line" />
         <h3>Detección Temprana de Glaucoma con Inteligencia Artificial</h3>
         <br></br>
-        <h5 align="left">El glaucoma es una de las principales causas de ceguera en el mundo, 
+        <h5 align="left" id="h5">El glaucoma es una de las principales causas de ceguera en el mundo, 
           pero con un diagnóstico oportuno, se puede prevenir su progresión. 
           En <b>VitaVision - AIris</b>, utilizamos inteligencia artificial avanzada 
           para analizar imágenes del fondo del ojo y detectar signos tempranos de 
