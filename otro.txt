@@ -4,6 +4,9 @@ git clone https://github.com/aarevalom0/AIris-Glaucoma-detection-using-Machine-L
 cd AIris-Glaucoma-detection-using-Machine-Learning-Frontend/VitaVision/
 sudo apt install npm
 npm install
-
+npm install react-router-dom
+npm run dev -- --host
 
 tmux new -s vitavision
+
+tmux attach -t vitavision
