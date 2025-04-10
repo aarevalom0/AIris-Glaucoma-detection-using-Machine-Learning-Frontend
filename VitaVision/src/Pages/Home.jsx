@@ -41,6 +41,9 @@ function Home () {
           En <b>VitaVision - AIris</b>, utilizamos inteligencia artificial avanzada 
           para analizar imágenes del fondo del ojo y detectar signos tempranos de 
           glaucoma en cuestión de segundos.</h5>
+        <br></br>
+        <h5 align="left" id="h5">Nuestra misión es proporcionar un diagnóstico preciso y accesible para todos, 
+          ayudando a los médicos a tomar decisiones informadas y a los pacientes a recibir el tratamiento adecuado a tiempo.</h5>
 
         </div>
     </div>
