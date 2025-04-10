@@ -8,6 +8,10 @@ npm install react-router-dom
 npm run dev -- --host
 git reset --hard 
 git pull
+
+cd AIris-Glaucoma-detection-using-Machine-Learning-Frontend/VitaVision/src/PAges
+nano Pages.jsx
+
 tmux new -s vitavision
 
 tmux attach -t vitavision

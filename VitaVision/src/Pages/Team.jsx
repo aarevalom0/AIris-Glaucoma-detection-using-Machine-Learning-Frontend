@@ -2,7 +2,7 @@ import { FaLinkedin } from 'react-icons/fa';
 const integrantes = [
   {
       nombre: "Ing. Valentina Salamanca",
-      descripcion: "creativa y proactiva, con un fuerte compromiso hacia el trabajo en equipo y la innovación. A lo largo del desarrollo del proyecto de grado, he contribuido con ideas clave para el diseño y funcionamiento del dispositivo, demostrando iniciativa y pensamiento estratégico. También he gestionado exitosamente el contacto con médicos especialistas, facilitando su participación y asesoramiento en el proyecto. Poseo habilidades de liderazgo, así como una sólida capacidad para la organización del tiempo y la planificación de actividades, lo que ha permitido mantener una buena coordinación del equipo y el cumplimiento de los objetivos en los plazos establecidos.",
+      descripcion: "Creativa y proactiva, con un fuerte compromiso hacia el trabajo en equipo y la innovación. A lo largo del desarrollo del proyecto de grado, he contribuido con ideas clave para el diseño y funcionamiento del dispositivo, demostrando iniciativa y pensamiento estratégico. También he gestionado exitosamente el contacto con médicos especialistas, facilitando su participación y asesoramiento en el proyecto. Poseo habilidades de liderazgo, así como una sólida capacidad para la organización del tiempo y la planificación de actividades, lo que ha permitido mantener una buena coordinación del equipo y el cumplimiento de los objetivos en los plazos establecidos.",
       imagen: "./Images/VS.png",
       linkedin: "http://linkedin.com/in/valentina-salamanca-bautista-072214320"
   },
@@ -20,19 +20,19 @@ const integrantes = [
 },
 {
   nombre: "Ing. Maria del Mar Urrea",
-  descripcion: "estudiante de Ingeniería Biomédica en la Universidad de los Andes. A lo largo de mi carrera, he descubierto una pasión por utilizar las herramientas de la ingeniería para ayudar a los demás y contribuir a mejorar la experiencia de las personas en el ámbito de la salud. Me considero una persona responsable, creativa y comprometida, siempre dispuesta a aportar ideas útiles e innovadoras, especialmente en el proyecto aportando ideas de diseño de prototipos que generen un impacto positivo. En este proyecto encontré una oportunidad para aplicar mis conocimientos y valores con el objetivo de crear soluciones reales y significativas.",
+  descripcion: "Estudiante de Ingeniería Biomédica en la Universidad de los Andes. A lo largo de mi carrera, he descubierto una pasión por utilizar las herramientas de la ingeniería para ayudar a los demás y contribuir a mejorar la experiencia de las personas en el ámbito de la salud. Me considero una persona responsable, creativa y comprometida, siempre dispuesta a aportar ideas útiles e innovadoras, especialmente en el proyecto aportando ideas de diseño de prototipos que generen un impacto positivo. En este proyecto encontré una oportunidad para aplicar mis conocimientos y valores con el objetivo de crear soluciones reales y significativas.",
   imagen: "./Images/Maria.png",
     linkedin: ""
 },
 {
   nombre: "Ing. Sebastian Melo",
-  descripcion: "Pendiente",
-  imagen: "",
+  descripcion: "Analítico, lógico y orientado al logro, con un fuerte interés en el diseño de dispositivos médicos y el análisis biomecánico. Durante el desarrollo del proyecto de grado, he tenido un rol clave en la ideación de la solución y en la definición de su enfoque técnico, aportando pensamiento estructurado y capacidad de análisis lógico frente a la problemática planteada. Me he enfocado especialmente en el diseño del dispositivo y en la construcción del prototipo físico, integrando criterios de funcionalidad, ergonomía y viabilidad técnica. Me destaco por mi capacidad para trabajar en equipo, liderar procesos técnicos y traducir ideas innovadoras en soluciones tangibles y eficientes.",
+  imagen: "./Images/Sebastian.png",
     linkedin: ""
 }
 ];
 const Asesores=[
-    {nombre: "Oftalmologo Gerardo Salamanca",
+    {nombre: "Oftalmólogo Gerardo Salamanca",
         descripcion: "El Dr. Gerardo Salamanca Palacios es médico egresado de la Universidad Autónoma de Guadalajara (México), con especialización en Oftalmología de la Universidad del Rosario (Colombia). Cuenta con más de 25 años de experiencia en el diagnóstico, tratamiento y cirugía de enfermedades oculares, con énfasis en el segmento anterior del ojo. Especialista en cirugía de catarata y cirugía refractiva, el Dr. Salamanca ha liderado numerosos procedimientos exitosos, consolidando su reputación como referente en su campo. Actualmente se desempeña como Director Científico del Instituto Oftalmológico Salamanca, donde combina la práctica clínica con la dirección estratégica e innovación médica. Es miembro activo de la Sociedad Colombiana de Oftalmología y de la American Society of Cataract and Refractive Surgery (ASCRS), lo cual respalda su compromiso con la actualización continua y la excelencia profesional.",
         imagen: "./Images/gerardo.png",
         linkedin: ""
@@ -46,7 +46,7 @@ const NuestroEquipo = () => {
       <div className="equipo-container">
 
         <div className="portada">
-          <img src="./Images/Team.png" alt="Nuestro Equipo" className="portada-img" id="carousel" />
+          <img src="./Images/Team.png" alt="Nuestro Equipo" className="portada-img" id="portada" />
           <div className="portada-texto">
             <h1 className="text-4xl font-bold">Nuestro Equipo</h1>
             <p className="text-lg mt-2">

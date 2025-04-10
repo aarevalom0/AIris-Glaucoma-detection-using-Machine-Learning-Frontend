@@ -62,7 +62,28 @@ function Model() {
                 <div className="row">
                     <div className="col">
                         <h2>Bienvenido a AI-ris</h2>
-                        <p>AI-ris es un sistema de detección automatic de enfermedades oculares mediante Machine Learning.</p>
+                        <div className="step-by-step">
+    <p><strong>¿Cómo funciona AI-ris?</strong></p>
+    <ol className="step-list">
+        <li>
+            <span className="step-icon">📤</span>
+            <span><strong>Paso 1:</strong> Sube una imagen del fondo del ojo en buena calidad.</span>
+        </li>
+        <li>
+            <span className="step-icon">🧠</span>
+            <span><strong>Paso 2:</strong> El sistema analizará la imagen usando algoritmos de inteligencia artificial entrenados en detección de glaucoma.</span>
+        </li>
+        <li>
+            <span className="step-icon">📊</span>
+            <span><strong>Paso 3:</strong> Verás un resultado inmediato que te indicará si hay signos de posible glaucoma.</span>
+        </li>
+        <li>
+            <span className="step-icon">👨‍⚕️</span>
+            <span><strong>Recomendación:</strong> Consulta a un especialista si el sistema detecta alguna anomalía.</span>
+        </li>
+    </ol>
+</div>
+
                     </div>
                     <div className="col">
                         <h2>Analizar con AI-ris</h2>
@@ -88,7 +109,7 @@ function Model() {
                         <button className="btn btn-primary" onClick={handlePredict}>Analizar Imagen</button>
                         <br></br>
                         <br></br>
-                        <h3>Diagnostico mediante AI-ris:</h3>
+                        <h3>Diagnóstico mediante AI-ris:</h3>
                         {prediccion && (
     <div 
         className='container' id={prediccion.Clase === "1" ? "alert" : "goodResult"}
