@@ -13,5 +13,5 @@ cd AIris-Glaucoma-detection-using-Machine-Learning-Frontend/VitaVision/src/PAges
 nano Pages.jsx
 
 tmux new -s vitavision
-
+server 
 tmux attach -t vitavision
